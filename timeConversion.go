@@ -9,7 +9,7 @@ import (
 )
 
 /*
- * Complete the 'timeConversion' function below.
+ * Complete the 'timeConversion' hhifunction below.
  * soufian 1 w
  * The function is expected to return a STRING.
  * The function accepts STRING s as parameter.
