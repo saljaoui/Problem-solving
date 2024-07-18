@@ -10,7 +10,7 @@ import (
 
 /*
  * Complete the 'timeConversion' hhifunction below.
- * soufian 1 w
+ * soufian
  * The function is expected to return a STRING.
  * The function accepts STRING s as parameter.
  */
