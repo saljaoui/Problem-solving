@@ -19,7 +19,7 @@ func main() {
 	var oldi int = 0
 	for _, s1 := range str1 {
 		for i, s2 := range str2arry {
-			if s2 == string(s1) {
+		if s2 == string(s1) {
 				if i >= oldi {
 					oldi = i
 					str2arry[i] = ""
@@ -33,3 +33,5 @@ func main() {
 		fmt.Println(str1)
 	}
 }
+
+//.
