@@ -6,19 +6,21 @@ import (
 )
 
 func FirstWord(s string) string {
-	var res []string
+
+	if s == "" {
+		return "\n"
+	}
 	var str string
 	for _, ss := range s {
-		if ss != ' ' {
+		if ss == ' ' && str != "" {
+			return str + "\n"
+		} else if ss != ' ' {
 			str += string(ss)
-		} else if ss == ' ' && str != "" {
-			res = append(res, str)
-			str = ""
 		}
-	}
-	res = append(res, str)
 
-	return res[0] + "\n"
+	}
+
+	return s
 }
 
 var testCases = []struct {
