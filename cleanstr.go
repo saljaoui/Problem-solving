@@ -10,7 +10,6 @@ func main() {
 		return
 	}
 	str := os.Args[1]
-	fmt.Println(str)
     var res string
     for i, s := range str {
 
